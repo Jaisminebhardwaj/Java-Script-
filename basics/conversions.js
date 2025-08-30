@@ -53,4 +53,18 @@ num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
 ++gameCounter;
-console.log(gameCounter);
+// console.log(gameCounter);
+
+// console.log(2==3)
+// console.log(6>3)
+// console.log(5<1)
+
+
+// Null ko Nan ya zero m convert kr deta h and output is unpredictable
+
+// console.log(null==0)
+// console.log(null>0)
+// console.log(null<0)
+
+// console.log(undefined==0)
+
