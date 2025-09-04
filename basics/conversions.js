@@ -68,3 +68,6 @@ let gameCounter = 100
 
 // console.log(undefined==0)
 
+//=== strict equality operator(check datatype also)
+// console.log(1==="1")
+// console.log(1===1)
