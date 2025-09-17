@@ -30,5 +30,23 @@ const obj4 = {...obj, ...obj3} //spread operator
 // console.log(Object.keys(details));//gives array as a datatype of all keys
 // console.log(Object.values(details));
 // console.log(Object.entries(details));
-console.log(details.hasOwnProperty("email"));//true/false
+// console.log(details.hasOwnProperty("email"));//true/false
 
+//destructuring
+const course = {
+    coursename : "JavaScript",
+    price : 999,
+    courseInstructor : "Jaismine Bhardwaj"
+}
+const {courseInstructor: inst} = course;//object destructuring
+// console.log(inst);
+
+//JSON
+// {
+//   "city": "London",
+//   "temperature": 15,
+//   "condition": "Partly Cloudy",
+//   "humidity": 70
+// }
+
+//API can be recieved in JSON format only either array or object
