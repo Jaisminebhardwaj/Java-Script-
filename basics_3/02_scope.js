@@ -6,4 +6,28 @@ if(true) {
 }
 // console.log(a);
 // console.log(b);
-console.log(c);
+// console.log(c);
+
+//nested scope
+function one (){
+    const username = "jaismine";
+    function two(){
+        const website = "learnwithjaismine.com";
+        // console.log(username);
+        // console.log(website);
+    }
+    // console.log(website); //error
+    two();
+}
+one();
+
+//++++++++++++++++intresting example+++++++++++++
+console.log(addone(5));
+function addone(num){
+    return num+1;
+}
+
+// addtwo(5); error
+const addtwo = function(num){ //function expression
+    return num+2;
+}
